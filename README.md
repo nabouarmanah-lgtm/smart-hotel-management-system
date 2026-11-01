@@ -71,3 +71,6 @@ java -cp out app.FinalP
 
 ## Attribution
 Original project, written by the repository owner. No third-party code.
+
+## Author
+Nada Nael Abu Armana
