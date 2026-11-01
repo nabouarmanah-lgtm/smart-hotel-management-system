@@ -1,0 +1,8 @@
+.git
+docs
+build/
+dist/
+nbproject/
+*.class
+*.md
+docker-compose.yml
