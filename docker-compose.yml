@@ -1,0 +1,5 @@
+services:
+  shms:
+    build: .
+    image: smart-hotel-management-system
+    container_name: shms-app
