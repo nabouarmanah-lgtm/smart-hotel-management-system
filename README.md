@@ -74,3 +74,28 @@ Original project, written by the repository owner. No third-party code.
 
 ## Author
 Nada Nael Abu Armana
+## Deploying to a VPS (Production)
+### 1. Install Git and Docker
+```bash
+sudo apt update && sudo apt install -y git
+curl -fsSL https://get.docker.com | sudo sh
+```
+### 2. Clone the repository
+```bash
+git clone https://github.com/nabouarmanah-lgtm/smart-hotel-management-system.git
+cd smart-hotel-management-system
+```
+### 3. Build and run
+```bash
+docker build -t smart-hotel-management-system .
+docker run -it smart-hotel-management-system
+# or: docker compose up --build
+```
+### 4. Verify
+```bash
+docker ps
+docker logs shms-app
+```
+## Production URL
+Deployed on a GitHub Codespace (Ubuntu 24.04):
+https://vigilant-space-goggles-q7rjw6vgj4r4cxqrr.github.dev
