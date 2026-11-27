@@ -10,5 +10,8 @@ COPY src/ ./src/
 # Compile all Java files into the "out" folder
 RUN mkdir out && javac -d out $(find src -name "*.java")
 
-# Run the application
-CMD ["java", "-cp", "out", "app.FinalP"]
+# The web server listens on this port
+EXPOSE 8080
+
+# Start the web server (the old console mode is still available, see README)
+CMD ["java", "-cp", "out", "app.WebServer"]

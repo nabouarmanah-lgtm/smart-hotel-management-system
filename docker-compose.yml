@@ -3,3 +3,6 @@ services:
     build: .
     image: smart-hotel-management-system
     container_name: shms-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
