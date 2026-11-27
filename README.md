@@ -117,8 +117,7 @@ docker run -d --name shms-app -p 8080:8080 --restart unless-stopped smart-hotel-
 ```
 
 ## Production URL
-TODO_PRODUCTION_URL
-
+https://vigilant-space-goggles-q7rjw6vgj4r4cxqrr-8080.app.github.dev
 ## Attribution
 Original project, written by the repository owner. No third-party code.
 
